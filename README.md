@@ -20,5 +20,6 @@ At the moment i am not sure that @rjsf/core can be used in production UI where s
 <h2>open issues</h2>
 <ul>
 <li>I am getting warning when rendering MyForm1 'Warning: Using UNSAFE_componentWillReceiveProps in strict mode is not recommended and may indicate bugs in your code'</li>
+<li>what is the difference between @rjsf/core and react-jsonschema-form</li>
 </ul>
 
