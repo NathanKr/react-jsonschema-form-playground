@@ -1,6 +1,5 @@
-import JSONForm, {
-   UiSchema,
-} from "@rjsf/core";
+import { UiSchema } from "@rjsf/core";
+import Form from "@rjsf/material-ui";
 import type { JSONSchema7 } from "json-schema";
 import { onChange, onError, onSubmit } from "../logic/utils";
 
@@ -16,9 +15,9 @@ const schema: JSONSchema7 = {
 
 const uiSchema: UiSchema = {};
 
-export default function MyFormDefaultTheme1() {
+export default function MyFormMaterialUiTheme1() {
   return (
-    <JSONForm
+    <Form
       schema={schema}
       uiSchema={uiSchema}
       onSubmit={onSubmit}
