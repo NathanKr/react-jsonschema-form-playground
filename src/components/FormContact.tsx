@@ -9,10 +9,10 @@ const schema: JSONSchema7 = {
     email: {
       type: "string",
     },
-    name: {
+    message: {
       type: "string",
     },
-    message: {
+    name: {
       type: "string",
     },
   },
@@ -21,6 +21,7 @@ const schema: JSONSchema7 = {
 };
 
 const uiSchema: UiSchema = {
+  "ui:order": ["name", "email","message"],
   message: {
     "ui:widget": "textarea",
   },
