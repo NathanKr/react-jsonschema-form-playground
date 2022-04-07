@@ -24,6 +24,9 @@ const uiSchema: UiSchema = {
   message: {
     "ui:widget": "textarea",
   },
+  email: {
+    "ui:widget": "email",
+  },
 };
 
 export default function FormContact() {
