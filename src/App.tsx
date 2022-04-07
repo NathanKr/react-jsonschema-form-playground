@@ -3,11 +3,14 @@ import FormTodos from './components/FormTodos'
 import FormPersonWithPets from './components/FormPersonWithPets'
 import FormQuiz from './components/FormQuiz'
 import FormUnion from './components/FormUnion'
+import FormContact from './components/FormContact'
 
 function App() {
 
   return (
     <div className="App">
+      <h2>FormContact</h2>
+      <FormContact/>
       <h2>FormUnion</h2>
       <FormUnion/>
        <h2>FormTodos</h2>

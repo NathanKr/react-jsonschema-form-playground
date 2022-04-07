@@ -1,7 +1,6 @@
 <h2>Motivation</h2>
 Experiment with react-jsonschema-form
 
-
 <h2>Installation</h2>
 
 ```
