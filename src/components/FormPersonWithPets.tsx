@@ -44,7 +44,7 @@ const schema: JSONSchema7 = {
 };
 const uiSchema: UiSchema = {};
 
-export default function MyFormMaterialUiTheme2() {
+export default function FormPersonWithPets() {
   return (
     <Form
       schema={schema}

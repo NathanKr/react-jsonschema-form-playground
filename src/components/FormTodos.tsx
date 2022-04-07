@@ -15,7 +15,7 @@ const schema: JSONSchema7 = {
 
 const uiSchema: UiSchema = {};
 
-export default function MyFormMaterialUiTheme1() {
+export default function FormTodos() {
   return (
     <Form
       schema={schema}

@@ -188,7 +188,7 @@ const schema: JSONSchema7 = {
 };
 const uiSchema: UiSchema = {};
 
-export default function MyFormMaterialUiTheme3() {
+export default function FormQuiz() {
   return (
     <Form
       schema={schema}
